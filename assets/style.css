@@ -1,0 +1,83 @@
+/* Background */
+#background {
+  background-color: rgb(201, 235, 235);
+  height: 100%;
+}
+
+/* Titulo */
+#titleWrapper {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#title{
+  font-size:100px;
+  font-family: 'Carter One', cursive;
+}
+
+/* Buttons */
+#gameButtons {
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Btn,
+.ativeBtn {
+  width: 200px;
+  height: 80px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-family: 'Alata', sans-serif;
+}
+.finalBtn{
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: 'Alata', sans-serif;
+}
+
+.gameSelections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#single1,
+#single2,
+#getNames,
+#game {
+  display: none;
+}
+
+/* Input */
+.input {
+  margin-bottom: 10px;
+  width: 190px;
+  height: 40px;
+  text-align: center;
+  font-family: 'Alata', sans-serif;
+}
+/* GameBoard */
+.square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  font-size: 40px;
+  height: 160px;
+}
+#gameBoard {
+  display: grid;
+  grid-template-columns: 160px 160px 160px;
+  padding: 10px;
+}
+#gameBoardWrapper {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
